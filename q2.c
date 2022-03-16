@@ -66,7 +66,7 @@ int stack_pop(struct Queue * q) {
         enQueue(q, removed_element);
     }
     removed_element = deQueue(q);
-
+ //removes element
     return removed_element;
 }
 //display stack
