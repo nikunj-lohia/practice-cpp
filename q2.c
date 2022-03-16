@@ -70,6 +70,7 @@ int stack_pop(struct Queue * q) {
     return removed_element;
 }
 //display stack
+//hi
 int stack_display(struct Queue * q) {
     int i = (q->rear) % q->capacity, n = q->count;
     int count=0;
