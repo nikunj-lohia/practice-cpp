@@ -71,6 +71,7 @@ int stack_pop(struct Queue * q) {
 }
 //display stack
 //hi
+//hello
 int stack_display(struct Queue * q) {
     int i = (q->rear) % q->capacity, n = q->count;
     int count=0;
